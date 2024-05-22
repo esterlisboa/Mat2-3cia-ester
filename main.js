@@ -8,15 +8,12 @@ for (let i = 0; i < botoes.length; i++) {
             botoes[j].classList.remove("ativo");
             textos[j].classList.remove("ativo");
         }
-
         botoes[i].classList.add("ativo");
         textos[i].classList.add("ativo");
     }
 }
-
 const contadores = document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date("2024-05-05T00:00:00");
-
 
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 
